@@ -6,8 +6,13 @@ class ItemRepositoryTest < ActiveSupport::TestCase
   end
   
   def test_retrieving_all_only_retrieves_active_items
+    backpack = items(:circuit_backpack) 
     assert_equal 2, @repo.all.count
-    @repo.destroy(items(:circuit_backpack).id)
+    assert_nil backpack.deleted_at
+    @repo.destroy(backpack.id)
+    
+    backpack = @repo.find(backpack.id)
+    refute_nil backpack.deleted_at
     assert_equal 1, @repo.all.count
   end
 end
