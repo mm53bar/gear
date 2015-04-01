@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+stove:
+  name: Stove
+  section_id: 
+  is_default_for_trip: true
+  is_mandatory: false
+
+backpack:
+  name: Backpack
+  section_id: 
+  is_default_for_trip: true
+  is_mandatory: true
