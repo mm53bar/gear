@@ -20,5 +20,4 @@ solo_stove:
   cost: 
   is_owned: true
   purchased_on: 2015-04-01
-  deleted_at: 2015-05-01
   notes: Bought from amazon.ca

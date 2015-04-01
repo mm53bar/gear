@@ -8,6 +8,6 @@ class ItemRepository
   end
   
   def all
-    super.where.not deleted_at: nil
+    super.where deleted_at: nil
   end
 end
