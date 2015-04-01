@@ -1,0 +1,24 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+circuit_backpack:
+  name: ULA Circuit
+  type_id: 
+  description: This is a crazy light backpack
+  weight: 2.0
+  url: 
+  cost: 
+  is_owned: true
+  purchased_on: 2015-04-01
+  notes: Bought from Massdrop
+
+solo_stove:
+  name: Solo Stove
+  type_id: 
+  description: Wood-burning stove
+  weight: 1
+  url: 
+  cost: 
+  is_owned: true
+  purchased_on: 2015-04-01
+  deleted_at: 2015-05-01
+  notes: Bought from amazon.ca
