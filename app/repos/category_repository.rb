@@ -1,9 +1,9 @@
 require_relative 'paranoid_repository'
 
-class ItemRepository
+class CategoryRepository
   include ParanoidRepository
 
-  def initialize(db = Item)
+  def initialize(db = Category)
     super
   end
 end
