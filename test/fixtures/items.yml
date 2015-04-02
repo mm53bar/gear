@@ -2,7 +2,7 @@
 
 circuit_backpack:
   name: ULA Circuit
-  type_id: 
+  category: backpack
   description: This is a crazy light backpack
   weight: 2.0
   url: 
@@ -13,7 +13,7 @@ circuit_backpack:
 
 solo_stove:
   name: Solo Stove
-  type_id: 
+  category: stove
   description: Wood-burning stove
   weight: 1
   url: 
