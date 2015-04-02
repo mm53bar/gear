@@ -11,13 +11,25 @@ circuit_backpack:
   purchased_on: 2015-04-01
   notes: Bought from Massdrop
 
-solo_stove:
-  name: Solo Stove
-  category: stove
-  description: Wood-burning stove
+hammock:
+  name: LSOH 11' Hammock
+  category: hammock
+  description: 11' long, HyperD 1.6, blaze orange
   weight: 1
-  url: 
+  url: http://www.littleshopofhammocks.com
   cost: 
   is_owned: true
   purchased_on: 2015-04-01
-  notes: Bought from amazon.ca
+  notes:
+
+cheap_poles:
+  name: Cheap Poles
+  category: poles
+  description: Poles that we got a long time ago
+  weight: 3
+  url:
+  cost:
+  is_owned: true
+  purchased_on:
+  notes: Not sure where the extra baskets are
+  

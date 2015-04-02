@@ -1,13 +1,20 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-stove:
-  name: Stove
-  section_id: 
+poles:
+  name: Trekking Poles
+  section: Worn/Carried 
   is_default_for_trip: true
   is_mandatory: false
 
 backpack:
   name: Backpack
-  section_id: 
+  section: packing 
   is_default_for_trip: true
   is_mandatory: true
+
+hammock:
+  name: Hammock
+  section: shelter
+  is_default_for_trip: true
+  is_mandatory: true
+  
