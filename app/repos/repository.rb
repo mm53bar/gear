@@ -11,14 +11,12 @@ module Repository
     adapter.all
   end
 
-  def update(id, params)
-    find(id).tap do |object|
-      object.update(params)
-    end
+  def update(object, params)
+    object.update(params)
   end
 
-  def destroy(id)
-    find(id).destroy
+  def destroy(object)
+    object.destroy
   end
 
   def create(params)

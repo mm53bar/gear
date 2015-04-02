@@ -9,7 +9,7 @@ class ItemRepositoryTest < ActiveSupport::TestCase
     backpack = items(:circuit_backpack) 
     assert_equal 2, @repo.all.count
     assert_nil backpack.deleted_at
-    @repo.destroy(backpack.id)
+    @repo.destroy(backpack)
     
     backpack = @repo.find(backpack.id)
     refute_nil backpack.deleted_at

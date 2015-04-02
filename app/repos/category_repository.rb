@@ -8,8 +8,8 @@ class CategoryRepository
     @item_repo = item_repo
   end
   
-  def items(id)
-    item_repo.all_for_category(find(id))
+  def items(category)
+    item_repo.all_for_category(category)
   end
   
   private

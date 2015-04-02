@@ -7,7 +7,7 @@ module ParanoidRepository
     super.where deleted_at: nil
   end
   
-  def destroy(id)
-    find(id).touch :deleted_at
+  def destroy(object)
+    object.touch :deleted_at
   end
 end
