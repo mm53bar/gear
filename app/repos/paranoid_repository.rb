@@ -8,6 +8,6 @@ module ParanoidRepository
   end
   
   def destroy(object)
-    object.touch :deleted_at
+    coerce(object).touch :deleted_at
   end
 end

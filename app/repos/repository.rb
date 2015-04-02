@@ -12,11 +12,11 @@ module Repository
   end
 
   def update(object, params)
-    object.update(params)
+    coerce(object).update(params)
   end
 
   def destroy(object)
-    object.destroy
+    coerce(object).destroy
   end
 
   def create(params)
@@ -26,4 +26,12 @@ module Repository
   private
 
   attr_reader :adapter
+  
+  def coerce(object_or_id)
+    if object_or_id.respond_to? :id
+      object_or_id
+    else
+      find(object_or_id)
+    end
+  end
 end
