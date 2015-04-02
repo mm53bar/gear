@@ -17,6 +17,10 @@ class SectionRepository
     category_repo.all_for_section(section)
   end
   
+  def add_category(section, params)
+    category_repo.create(params.merge(section: section))
+  end
+  
   private
   
   attr_reader :item_repo, :category_repo
