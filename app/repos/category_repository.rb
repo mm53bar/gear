@@ -12,6 +12,10 @@ class CategoryRepository
     item_repo.all_for_category(category)
   end
   
+  def all_for_section(section)
+    all.where section: section
+  end
+  
   private
   
   attr_reader :item_repo

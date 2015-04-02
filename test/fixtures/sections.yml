@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+packing:
+  name: Packing
+  location: 0
+
+shelter:
+  name: Shelter
+  location: 0
+  
+worn_carried:
+  name: Worn/Carried
+  location: 1
