@@ -82,6 +82,8 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+    skins (0.0.2)
+      rails (~> 4.0, >= 4.0.0)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -103,4 +105,5 @@ PLATFORMS
 
 DEPENDENCIES
   rails
+  skins
   sqlite3
